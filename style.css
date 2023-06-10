@@ -1,24 +1,71 @@
 body {
     font-family: serif;
     color: white;
-    font-size: 15px;
+    margin: 0;
 }
 .header, .footer, .intro {
     background-color: #1f2937;
 }
+/* header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    align-items: baseline;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    gap: 40px;
+}
+/* intro */
+.intro {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+}
+.placeholder {
+    background-color: gray;
+}
+.intro-header {
+    font-size: 20px;
+    flex-grow: 1;
+}
+.button-intro {
+
+}
+
+
+
+/* pictures part */
 .container {
     background-color: white;
 }
+/* quote */
 .quote {
     background-color: #E5E7EB;
 }
 .sign-up {
     background-color: #3882f6;
 }
+h3 {
+    color: black;
+}
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+}
+/* footer */
+.sign-up {
+    display: flex;
+    justify-content: space-around;
+}
+
 button {
     background-color: #3882f6;
     color: white;
-}
-h3 {
-    color: black;
 }
