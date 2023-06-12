@@ -4,7 +4,13 @@
 }
 body {
     font-family: serif;
-    color: white;
+    color: white
+}
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
 }
 .header, .footer, .intro {
     background-color: #1f2937;
@@ -19,27 +25,26 @@ body {
 }
 ul {
     list-style-type: none;
-    margin: 10px;
     gap: 40px;
     display: flex;
 }
-
+.intro-header {
+    font-size: 20px;
+}
 /* intro */
 .intro {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 60px;
 }
+
 .placeholder {
     background-color: gray;
-
-
+    display: flex;
+    align-items: center;
 }
 #placeholder-text {
     text-align: center;
-}
-.intro-header {
-    font-size: 20px;
 }
 /* Buttons */
 .button-intro {
@@ -60,9 +65,22 @@ button {
 
 
 
-/* pictures section */
+/* container */
 .container {
     background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    display: flex;
+}
+.image-container {
+    display: flex;
+    color: black;
+}
+.info {
 
 }
 /* quote */
@@ -74,24 +92,32 @@ button {
     align-items: flex-end;
     justify-content: center;
 }
-button .sign-up {
-    background-color: #3882f6;
-}
+
 h3 {
     color: black;
+}
+/* signup end */
+.signup-up {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3882f6;
 }
 /* footer */
 .footer {
     display: flex;
     justify-content: center;
     padding: 13px;
+
 }
-/* footer */
-.sign-up {
-    display: flex;
-    justify-content: space-around;
+/* buttons */
+button {
+    background-color: #3882f6;
 }
 
 img {
-    height: 60px;
+    height: 100px;
 }
